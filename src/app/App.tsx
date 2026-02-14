@@ -15,9 +15,9 @@ import img4 from '../assets/photo4.jpg';
 import img5 from '../assets/photo5.jpg';
 import img6 from '../assets/photo6.jpg';
 import img7 from '../assets/photo7.jpg';
-import img8 from '../assets/photo8.jpg';
+import img8 from '../assets/photo8.PNG';
 import img9 from '../assets/photo9.jpg';
-import img10 from '../assets/photo10.jpg';
+import img10 from '../assets/photo10.jpeg';
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState('home');
