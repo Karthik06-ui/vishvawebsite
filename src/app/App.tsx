@@ -14,6 +14,10 @@ import img3 from '../assets/photo3.JPEG';
 import img4 from '../assets/photo4.jpg';
 import img5 from '../assets/photo5.jpg';
 import img6 from '../assets/photo6.jpg';
+import img7 from '../assets/photo7.jpg';
+import img8 from '../assets/photo8.jpg';
+import img9 from '../assets/photo9.jpg';
+import img10 from '../assets/photo10.jpg';
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState('home');
@@ -76,25 +80,25 @@ Together, we've created a constellation of memories that shine brighter than any
     },
     {
       id: 7,
-      image: img1,
+      image: img7,
       caption: 'Ne sandhosama iruntha podhum maha ena ku Athukaaga na enavenalum panuven ❤️',
       layout: 'left',
     },
     {
       id: 8,
-      image: img2,
+      image: img8,
       caption: 'Una ku nyaabagam irukanu therla first lam bore adicha va sanda podalam nu chat la suma sanda poduvaa 😂❤️',
       layout: 'right',
     },
     {
       id: 9,
-      image: img3,
+      image: img9,
       caption: 'Na venus house cap ku nikura apo snap la ne ipadi pesu nu oru periya parah type pani anupunala atha na ipo varaikum enga pesa ponalum paathutu than poren athu ena ku oru bayangaramaaana motivation maha ❤️',
       layout: 'center',
     },
     {
       id: 10,
-      image: img4,
+      image: img10,
       caption: 'Enoda periya strength maha nee ❤️ Una kandipaaa nala paathupenn Intha 3 years la neraiya memories ilanaalum chinna chinna cute memories iruku inum neraiya memories nama senthu create panalama ❤️🥰',
       layout: 'left',
     },
@@ -134,10 +138,13 @@ HAPPY VALENTINES DAY AMMUUUU ❤️❤️❤️`);
   const [photos, setPhotos] = useState([
     img1,
     img2,
-    img3,
     img4,
     img5,
     img6,
+    img7,
+    img8,
+    img9,
+    img10,
   ]);
 
   const handleEditMoment = (momentId: number) => {
